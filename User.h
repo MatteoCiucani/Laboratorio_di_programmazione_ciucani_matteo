@@ -18,8 +18,8 @@ public:
     User(const std::string &name) : name_(name) {}
 
     void Update(int count, const std::string &item_name) override {
-        std::cout << name_ << ": Shopping list updated, " << count
-                  << " items, latest item: " << item_name << std::endl;
+        std::cout << name_ << ": Lista della spesa aggiornata, " << count
+                  << " oggetti, ultimo oggetto: " << item_name << std::endl;
     }
 
     std::vector<Item> shopping_list_;
