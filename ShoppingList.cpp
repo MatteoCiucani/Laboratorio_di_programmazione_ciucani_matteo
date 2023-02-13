@@ -20,6 +20,7 @@ void ShoppingList::RemoveItem(const std::string &item_name) {
     }
 }
 
+
 void ShoppingList::Attach(Observer *observer) {
     observers_.push_back(observer);
 }
